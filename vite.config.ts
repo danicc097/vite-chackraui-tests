@@ -24,7 +24,7 @@ export default ({ mode }) => {
         },
         // root: './src',
         build: {
-            outDir: '../build',
+            outDir: './build',
             rollupOptions: {
                 input: {
                 main: resolve(__dirname, 'index.html'),
